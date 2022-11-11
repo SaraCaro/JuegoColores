@@ -22,7 +22,7 @@ function rightColor() {
     for(i=0;i<divs.length;i++){
         divs[i].addEventListener("click", (e) => {
             if(e.target.style.backgroundColor == choosenColor){
-                document.getElementById("resultado").innerHTML = "Lo has acertado";
+                document.getElementById("resultado").innerHTML = "Lo has acertado!";
             }
             else {
                 document.getElementById("resultado").innerHTML = "Sigue Intentandolo";
