@@ -1,0 +1,43 @@
+header{
+    background-color: rgb(54,156,156);
+    color: white;
+    text-align: center;
+}
+nav{
+    text-align: center;
+    color: rgb(54,156,156);
+}
+nav a:hover{
+    background-color: rgb(54,156,156);
+    color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+main{
+    background-color: #232323;
+}
+#principal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 0 auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#principal div{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.color{
+    background-color: white;
+}
+
+h3{
+    text-align: center;
+    color: black;
+}
